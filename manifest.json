@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Rich-Notion-ExT",
+  "version": "1.0",
+  "description": "Copy selected text and paste it into Notion preserving basic formatting.",
+  "permissions": ["contextMenus", "scripting", "activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
