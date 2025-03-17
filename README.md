@@ -52,7 +52,7 @@
 3. The selected text (with formatting) will be appended to your specified Notion page.  
 
 ### **2. Demo Video**  
-Watch the video below to see **Rich Notion Ext** in action:  [[Demo Video]](assets/demo.mp4)    
+Watch the video below to see **Rich Notion Ext** in action:  [[Demo Video]]([assets/demo.mp4](https://drive.google.com/file/d/1l5IAONTZR2OLY2af6ZHVaYXFCUXp-apM/view?usp=sharing))    
 ---
 
 ## **Configuration**  
